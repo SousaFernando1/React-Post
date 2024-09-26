@@ -5,12 +5,12 @@ import { sessionStorage } from 'src/storage';
 import { handleRequestError } from 'src/utils';
 import { retry } from 'src/utils/promises';
 
-type LoginParams = {
+export type LoginParams = {
   username: string;
   password: string;
 };
 
-type LoginResponse = {
+export type LoginResponse = {
   token: string;
   user: IUser;
 };

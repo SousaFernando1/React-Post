@@ -22,5 +22,5 @@
     },
     "types": ["vite/client", "vitest/globals"],
   },
-  "include": ["src", "App.tsx", "src/vite-env.d.ts", "test"],
+  "include": ["src", "App.tsx", "src/vite-env.d.ts", "test", "src/tests/mws/.ts"],
 }

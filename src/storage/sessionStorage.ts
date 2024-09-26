@@ -16,11 +16,6 @@ export const sessionStorage = {
   },
   getToken: () => getLocalStorageItem(TOKEN_KEY),
 
-  setRefreshToken: (token: string) => {
-    setLocalStorageItem(REFRESH_TOKEN_KEY, token);
-  },
-  getRefreshToken: () => getLocalStorageItem(REFRESH_TOKEN_KEY),
-
   clean: () => {
     localStorage.removeItem(TOKEN_KEY);
     localStorage.removeItem(REFRESH_TOKEN_KEY);
